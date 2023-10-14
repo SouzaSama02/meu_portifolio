@@ -1,0 +1,32 @@
+.sobremim-bg {
+  background-color: var(--w);
+  height: 600px;
+}
+
+.sm-ctn {
+  padding-top: 60px;
+}
+
+.sobremim-item {
+  display: flex;
+  align-items: center;
+}
+
+.sobremim-item img {
+  width: 400px;
+}
+
+@media (max-width: 800px) {
+  .sobremim-bg {
+    height: 500px;
+  }
+  .sobremim-item img {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .sobremim-bg {
+    height: 600px;
+  }
+}

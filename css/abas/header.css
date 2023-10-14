@@ -1,0 +1,30 @@
+header {
+  background: var(--c1);
+  padding: 1.5rem;
+}
+
+.ul-header {
+  display: flex;
+  justify-content: end;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
+  .ul-home {
+    justify-content: center;
+    gap: 1rem;
+  }
+  .ul-home ol {
+    margin-top: 1rem;
+  }
+  .ul-home ol:nth-child(4) {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .ul-header {
+    justify-content: center;
+  }
+}

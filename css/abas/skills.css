@@ -1,0 +1,40 @@
+.skills-bg {
+  background-color: var(--w);
+}
+
+.skills {
+  padding-top: 60px;
+}
+
+.skills-info h2 {
+  margin: 0px;
+  color: var(--c1);
+}
+
+.skills-itens span {
+  padding: 10px;
+  color: var(--c1);
+  border: solid 2px var(--c1);
+  flex: 1 1 500px;
+  border-radius: 10px;
+}
+
+.skills-itens span:hover {
+  background-color: var(--c1);
+  color: var(--w);
+  transition: 250ms;
+}
+
+.skills-itens {
+  padding-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+@media (max-width: 800px) {
+  .skills-itens {
+    padding-top: 0.5rem;
+    gap: 20px;
+  }
+}

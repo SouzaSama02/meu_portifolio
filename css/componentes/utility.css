@@ -1,0 +1,47 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.botton-01 {
+  display: inline-block;
+  background-color: var(--c1);
+  border: 1px solid var(--w);
+  color: var(--w);
+  border-radius: 10px;
+  padding: 0.5rem 2rem;
+}
+
+.botton-01:hover,
+.botton-02:hover {
+  color: var(--c1);
+  background-color: var(--w);
+  transition: 250ms;
+}
+
+.botton-02 {
+  display: inline-block;
+  border: 1px solid var(--w);
+  border-radius: 10px;
+  background-color: var(--c1);
+  padding: 0.5rem 2rem;
+  color: var(--w);
+  opacity: 50%;
+}
+
+.line {
+  display: inline-block;
+  background: var(--w);
+  width: 30%;
+  height: 2px;
+}
+
+.line-02 {
+  display: inline-block;
+  background: var(--c1);
+  width: 30%;
+  height: 2px;
+}

@@ -1,0 +1,54 @@
+.portfolio-bg {
+  background-color: var(--w);
+  margin-top: 5rem;
+}
+
+.portfolio {
+  padding-top: 60px;
+}
+
+.portfolio h2 {
+  margin-bottom: 10px;
+}
+
+.portfolio h2,
+.portfolio p {
+  color: var(--c1);
+}
+
+.proj-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: max-content;
+  gap: 20px;
+  flex: 1 1 600px;
+}
+
+.proj-itens {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 3px solid var(--c1);
+  border-radius: 10px;
+  background-color: var(--w);
+  width: 500px;
+}
+
+.proj-itens span {
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.proj-itens:hover {
+  background-color: var(--c1);
+  color: var(--w);
+  transition: 250ms;
+}
+
+@media (max-width: 800px) {
+  .proj-itens {
+    width: 300px;
+    padding: 0.5rem;
+  }
+}

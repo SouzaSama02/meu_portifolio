@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+/* Global */
+
+@import url(componentes/global.css);
+@import url(componentes/cor.css);
+@import url(componentes/utility.css);
+@import url(componentes/tipografia.css);
+
+/* Abas */
+
+@import url(abas/header.css);
+@import url(abas/nav-lateral.css);
+@import url(abas/home.css);
+@import url(abas/projetos.css);
+@import url(abas/skills.css);
+@import url(abas/sobremim.css);
+@import url(abas/rodape.css);
+
+@import url(componentes/btn-top.css);

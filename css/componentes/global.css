@@ -1,0 +1,33 @@
+body {
+  margin: 0px;
+  height: 1200px;
+  background-color: var(--c1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: var(--c1);
+  margin: 0px;
+}
+
+ol {
+  padding: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1,
+h2 {
+  margin: 0px;
+}
+
+img {
+  width: 100%;
+}
